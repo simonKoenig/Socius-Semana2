@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Lista de peliculas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="aleatorio">
+            <button onclick="obtenerPeliculaAleatoria()">Generar película aleatoria</button>
+            <h2 id="peliculaAleatoria"></h2>
+        </div>
+        <br><br><br>
+        <div class="lista">
+            <select id="peliculasSelect">
+                <option value="">Seleccione una película</option>
+            </select>
+            <div id="detallesPelicula">
+                <p><strong>Año:</strong> <span id="year"></span></p>
+                <p><strong>Género:</strong> <span id="genre"></span></p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
+
